@@ -36,13 +36,17 @@ The environment provides:
 * cmake3 (symbolycally linked as `/usr/bin/cmake` for convenience)
 * removes default compilers to avoid confusion
 
+To pull the pre-built docker image, please see: https://hub.docker.com/repository/docker/rwdougla/aq_cpp
+
+OR
+
 To build docker image from source
 
-`docker build . -t aquatic`
+`docker build . -t rwdougla/aq_cpp`
 
 Run docker: (Take care to personalize to where you pulled this repo)
 
-`docker run --rm -it -v /path/to/this/repo/on/your/system/:/workspace/ aquatic bash`
+`docker run --rm -it -v /path/to/this/repo/on/your/system/:/workspace/ rwdougla/aq_cpp bash`
 
 Inside Docker container:
 
@@ -51,4 +55,5 @@ cd /workspace/
 mkdir debug && cd debug
 cmake ..
 make
+./tests/tests
 ```
