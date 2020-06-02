@@ -25,6 +25,8 @@ Notes:
 
 ## Provided
 
+Notice: While Aquatic deals with social distancing, we are performing virtal interviews. As such, the need for a standardized build environment (below) is largely mitigated by your interview being done primarily through screen share of your setup, rather than on an Aquatic machine at our office. As such, free to use the build environment provided, below. If that proves troublesome, such as trying to develop on a Mac or recent version of Fedora that requires podman, then the please feel free to develop in whatever environment you have available to you, so long as you will be able to share your screen in a virtual interview.
+
 Lacking any standard build environment, we provide a docker-based setup to get you going. The expectation is that the code provided would be able to build within this environment, but you are free to develop in whatever environment makes you comfortable.
 
 The environment provides:
