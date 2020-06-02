@@ -46,7 +46,7 @@ To build docker image from source
 
 Run docker: (Take care to personalize to where you pulled this repo)
 
-`docker run --rm -it -v ``pwd``:/workspace/ rwdougla/aq_cpp bash`
+``docker run --rm -it -v `pwd`:/workspace/ rwdougla/aq_cpp bash``
 
 Inside Docker container:
 
