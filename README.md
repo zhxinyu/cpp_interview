@@ -22,6 +22,14 @@ Notes:
 * At this time, we will leave removal of items as a future extension
 * There is no explicit need for iterator support, though you are welcome to do so, if you feel it best for your implementation.
 
+## Getting started
+
+First, make sure to pull this code base to your local system:
+
+```
+git clone https://github.com/aquanauts/cpp_interview.git
+cd cpp_interview
+```
 
 ## Provided
 
